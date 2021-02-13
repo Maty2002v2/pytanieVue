@@ -34,7 +34,6 @@ export default {
   watch: {
     $route (to, from) {
       this.fetchData(`http://localhost:5000/${to.name}`)
-      console.log(`http://localhost:5000/${to.name}`)
     }
   }
 }
